@@ -9,14 +9,6 @@ class NavBarController {
       href: '/home',
       label: 'Home',
       isActive: true
-    }, {
-      href: '#',
-      label: 'About',
-      isActive: false
-    }, {
-      href: '#',
-      label: 'Contact',
-      isActive: false
     }];
 
   }

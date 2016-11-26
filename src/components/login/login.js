@@ -2,31 +2,12 @@ class LoginController {
 
   /*@ngInject*/
   constructor() {
-
-    this.brand = 'Find Me';
-
-    this.items = [{
-      href: '/home',
-      label: 'Home',
-      isActive: true
-    }, {
-      href: '#',
-      label: 'About',
-      isActive: false
-    }, {
-      href: '#',
-      label: 'Contact',
-      isActive: false
-    }];
-
   }
 
-  onItemClicked(clickedItem) {
-    this.items = this.items.map((item) => {
-      item.isActive = item.label === clickedItem.label;
-      return item;
-    });
-  }
+  
+    login(){
+        // return window.location.href = "https://api.imgur.com/oauth2/authorize?client_id=" + "CLIENT_ID_HERE" + "&response_type=token";
+    }
 }
 
 const Login = {
