@@ -16,6 +16,10 @@ const module = angular.module('home.module', ['ui.router'])
 			.state('home', {
 				url: '/home',
 				template: '<home></home>'
+			})
+			.state('login',{
+				url:'/login',
+				templateUrl:'./components/login/login.html'
 			});
 	})
 	.name;

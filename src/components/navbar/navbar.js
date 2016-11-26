@@ -6,7 +6,7 @@ class NavBarController {
     this.brand = 'Find Me';
 
     this.items = [{
-      href: '#',
+      href: '/home',
       label: 'Home',
       isActive: true
     }, {
